@@ -4,7 +4,7 @@ $this->script = '<script src="Vue/Jscripts/mediaScript.js" type="text/javascript
 
 
 $rech = json_decode($recherche);
-echo ' <h3 class="title title-short">Rechercher un Media</h3>
+echo ' <h3 class="title title-short">Combo Media</h3>
             <select id="comboActeur" name="acteur">
                 <option value="0" selected="selected">Choisissez un Acteur</option>
             </select>

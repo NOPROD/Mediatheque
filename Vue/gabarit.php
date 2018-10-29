@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="Contenu/Ressources/primeui-4.1.15/primeui.css"/>
     <script type="text/javascript" src="Contenu/Ressources/primeui-4.1.15/primeui.js"></script>
     <script type="text/javascript" src="Contenu/Ressources/primeui-4.1.15/primeelements.js"></script>
+    <script src="Vue/Jscripts/style.js" type="text/javascript"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css" />
 
@@ -33,22 +34,21 @@
 <body>
 
 <div id="global">
-    <div id="messages"></div>
+    <header>
     <div id='entete'>
-        <header>
+
             <a href="index.php"><h1 id="titreSite">Mediatheque</h1></a>
             <p></p>
-        </header>
     </div>
+    </header>
 
+    <ul id="stickymenu">
+        <li> <a data-icon="fa-home" href="Accueil.html" class="Accueil">Accueil</a>
+        </li>
+        <li><a data-icon="fa-book" href="Type.html" class="Type">Type</a></li>
+        <li><a data-icon="fa-flag" href="Langue.html" class="Langue">Langue</a></li>
+    </ul>
 
-<div id="menu">
-    <a href="Accueil.html" class="Accueil">Accueil</a>
-    <a href="Type.html" class="Type">Type</a>
-    <a href="Langue.html" class="Langue">Langue</a>
-
-</div>
-<div id="corps">
 
 
 
@@ -58,10 +58,10 @@
         <?= $contenu ?>
     </div>
 </div>
-    <footer id="pied">
+    <footer id="foot">
 
 
     </footer>
-</div>
+
 </body>
 </html>

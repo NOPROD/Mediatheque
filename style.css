@@ -2,25 +2,46 @@ html, body {
     height: 100%;
 }
 
-body, #entete {
-    color: #bfbfbf;
-    background: url(Contenu/image/fondbiblio.jpg) no-repeat center center;
-    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
-    margin-bottom : 30px;
+
+
+body {
+    background-image: url(Contenu/image/fondbiblio.jpg);
     text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    color: #bfbfbf;
 }
 
 
+
+#entete {
+
+    background: url(Contenu/image/fondbiblio.jpg) no-repeat center center;
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+    margin-bottom : 30px;
+
+}
+
+#stickymenu{
+    text-align: center;
+}
 
 h1 {
     color: white;
 }
 
 #global {
-    min-height: 100%;  /* Voir commentaire sur html et body plus haut */
-    background: #333534;
-    width: 65%;
-    margin: auto;    /* Permet de centrer la div */
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    background-color: rgba(32, 60, 64, 0.7);
 
 }
 
@@ -29,7 +50,7 @@ h1 {
     border: 1px solid #555555;
 }
 
-.matable
+div.matable
 {
     background-color: black;
     margin-top: 10px;
@@ -54,23 +75,13 @@ h1 {
     background-color: darkslategrey;
 }
 
-.matable table  th{
-    background-color: black;
-    text-align: center;
-    min-width: 100px;
-    height: 50px;
-}
-.id
+.id, .AchatExpress
 {
     text-align: center;
 }
 .nom
 {
     width: 700px;;
-}
-.AchatExpress
-{
-    text-align: center;
 }
 
 label
