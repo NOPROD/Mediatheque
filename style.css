@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+}
+
+body, #entete {
+    color: #bfbfbf;
+    background: url(Contenu/image/fondbiblio.jpg) no-repeat center center;
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+    margin-bottom : 30px;
+    text-align: center;
+}
+
+
+
+h1 {
+    color: white;
+}
+
+#global {
+    min-height: 100%;  /* Voir commentaire sur html et body plus haut */
+    background: #333534;
+    width: 65%;
+    margin: auto;    /* Permet de centrer la div */
+
+}
+
+#entete{
+    color: whitesmoke;
+    border: 1px solid #555555;
+}
+
+.matable
+{
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-color: lightblue;
+    border:2px solid lightblue;
+    border-radius:10px;
+
+}
+.matablematable table tr:hover
+{
+    background-color: black;
+}
+.matable table tr:nth-child(odd)
+{
+    background-color: darkslategrey;
+}
+
+.matablematable table tr:nth-child(even)
+{
+    background-color: darkslategrey;
+}
+
+.matable table  th{
+    background-color: black;
+    text-align: center;
+    min-width: 100px;
+    height: 50px;
+}
+.id
+{
+    text-align: center;
+}
+.nom
+{
+    width: 700px;;
+}
+.AchatExpress
+{
+    text-align: center;
+}
+
+label
+{
+    display: block;
+    width: 120px;
+    float: left;
+}
+
