@@ -24,9 +24,9 @@ Class EnvoiMail
 //Set the hostname of the mail server
         $mail->Host = 'smtp.gmail.com';
 //Set the SMTP port number - 587 for authenticated TLS, 465 for ssl
-        $mail->Port = 587;
+        $mail->Port = 465;
 //Set the encryption system to use - ssl (deprecated) or tls
-        $mail->SMTPSecure = 'tls';
+        $mail->SMTPSecure = 'ssl';
 //Whether to use SMTP authentication
         $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
